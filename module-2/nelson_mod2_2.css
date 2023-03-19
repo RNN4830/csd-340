@@ -1,0 +1,66 @@
+html,
+body {
+  font-size: 16px;
+  /*background-color:#D8BFD8;*/
+}
+header {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 0 auto;
+  border: 5px solid black;
+}
+p{
+  text-indent: 20px;
+  font-weight: 400;
+  line-height: 1.4em;
+  font-family: Georgia, serif;
+}
+h1{
+  font-weight:700;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Georgia, serif;
+}
+h2{
+  font-weight: 500;
+  text-align: left;
+  padding-top: 15px;
+  font-family: Georgia, serif;
+}
+hr{
+  color: blue;
+}
+address {
+  text-align: center;
+}
+a {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #4F3674;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: #D6A800;
+}
+
+a:visited {
+  background-color: #4888A8;
+}
+
+.css-sentence {
+  font-style: italic;
+}
+
+.intro {
+  text-indent: 2em;
+}
+      hr {
+        background-color: black;
+        color: black;
+        height: 3px;
+        border: none;
+      }
