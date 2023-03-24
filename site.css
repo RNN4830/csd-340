@@ -1,0 +1,24 @@
+/*Rachel Nelson
+Assignment 3.2 CSS
+03/26/23*/
+#container{
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+h1, h2, h3, h4{
+  background-color: #0099ff;
+  color: white;
+  border: 1px solid #D6A800;
+  padding: 10px;
+}
+a{
+  color: #6600ff;
+  text-decoration: none;
+}
+a:hover{
+  color: #66ccff;
+}
+a:visited{
+  color: #d966ff;
+}
