@@ -2,7 +2,7 @@
 Assignment 3.3 CSS
 03/26/23*/
 
-h1
+h1 
 {
   text-align: center;
 }
@@ -11,14 +11,17 @@ h1
   width: 45%;
   float: left;
 }
-.last-div
+.new-div
 {
   width: 100%;
-  margin-top: 60%;
-  margin-bottom: 20px;
-  float: right;
-
+  margin-top:60%;
 }
+.last-div
+{ 
+  float: right;
+  margin-bottom:20px;
+}
+
 h3{
   font-weight: 500;
 }
@@ -29,7 +32,7 @@ ul, ol{
   border: 1px solid red;
   border-radius: 15px;
   padding: 10px;
-
+  
 }
 .right-div{
   border: 1px dashed red;
