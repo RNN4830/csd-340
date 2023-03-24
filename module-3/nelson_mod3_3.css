@@ -1,0 +1,43 @@
+/*Rachel Nelson
+Assignment 3.3 CSS
+03/26/23*/
+
+h1
+{
+  text-align: center;
+}
+.left-div, .right-div
+{
+  width: 45%;
+  float: left;
+}
+.last-div
+{
+  width: 100%;
+  margin-top: 60%;
+  margin-bottom: 20px;
+
+}
+h3{
+  font-weight: 500;
+}
+ul, ol{
+  font-weight: 300;
+}
+.left-div{
+  border: 1px solid red;
+  border-radius: 15px;
+  padding: 10px;
+
+}
+.right-div{
+  border: 1px dashed red;
+  border-radius: 15px;
+  padding: 10px;
+}
+ul{
+  list-style: upper-roman;
+}
+a:hover{
+  text.decoration: underline;
+}
