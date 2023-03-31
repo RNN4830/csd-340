@@ -1,24 +1,32 @@
 /*Rachel Nelson
 Assignment 3.2 CSS
 03/26/23*/
+body{
+  background-color: rgba(219, 218, 238, 0.8);
+}
 #container{
   margin-top: 50px;
   margin-left: 100px;
   margin-right: 100px;
 }
 h1, h2, h3, h4{
-  background-color: #0099ff;
-  color: white;
-  border: 1px solid #D6A800;
+  background-color: #9AA2C1;
+  color: black;
+  border: 2px solid #000000;
   padding: 10px;
+  text-align: center;
+}
+li{
+  text-align: center;
+  list-style-type: none;
 }
 a{
-  color: #6600ff;
+  color: #000000;
   text-decoration: none;
 }
 a:hover{
   color: #66ccff;
 }
 a:visited{
-  color: #d966ff;
+  color: #432697;
 }
