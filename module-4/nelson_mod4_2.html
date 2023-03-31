@@ -1,0 +1,53 @@
+<!--Rachel Nelson
+Assignment 4.2 HTML
+04/02/23-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSD 340 Web Development with HTML and CSS</title>
+	<link rel="stylesheet" type="text/css" href="nelson_mod4_2.css">
+</head>
+
+<body>
+	<div id="container">
+		<h1>Assignment 4.2: Build a Web Page Exercise - Part 4</h1>
+		<div id="image-gallery">
+
+			<div>
+				<h3>Gone Girl</h3>
+				<figure>
+					<img src=images\goneGirl.jpeg alt="A book cover of Gone Girl" class = "image1-img">
+					<figcaption>(Author: Gillian Flynn)</figcaption>
+				</figure>
+			</div>
+
+			<div>
+				<h3>The Girl on the Train</h3>
+				<figure>
+					<img src=images\girlOnTheTrain.jpeg alt="A book cover of Girl on the Train" class = "image2-img">
+					<figcaption>(Author: Paula Hawkins)</figcaption>
+				</figure>
+			</div>
+
+			<div>
+				<h3>Ready Player One</h3>
+				<figure>
+					<img src=images\readyPlayerOne.jpeg alt="A book cover of Ready Player One" class = "image3-img">
+					<figcaption>(Author: Ernest Cline)</figcaption>
+				</figure>
+
+			</div>
+		</div>
+
+		<div class ="last-div">
+			<button class="my-button" onclick="goToPage2()">Back to Index</button>
+		</div>
+	</div>
+
+	<script>
+		function goToPage2() {
+		    window.location.href = "../index.html";
+		}
+	</script>
+</body>
+</html>
