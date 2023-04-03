@@ -17,6 +17,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  text-align: center;
 }
 
 #image-gallery > div {
@@ -31,9 +32,9 @@ h1 {
   font-size: .75em;
 }
 
-#image-gallery img {
-  max-width: 100%;
-  max-height: 100%;
+.image1-img, .image2-img, .image3-img {
+    width: 300px;
+    height: 400px;
 }
 
 #image-gallery h3 {
