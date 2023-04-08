@@ -15,6 +15,7 @@ h1, h2, h3, h4{
   border: 2px solid #000000;
   padding: 10px;
   text-align: center;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
 li{
   text-align: center;
