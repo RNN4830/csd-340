@@ -1,0 +1,73 @@
+<!--Rachel Nelson
+Module 10
+04/28/2023-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" href="nelson_mod10.3.css">
+  </head>
+  <body>
+    <header>
+      <div id="navbar">
+        <h1>Assignment 10.3: JavaScript - Part 2</h1>
+      </div>
+    </header>
+
+    <div class="image-container">
+      <img id="mainImage" src="images/desert_flowers1.jpeg" alt="Images enlarged" class="mainImage" style="width:300px;height:200px;">
+    </div>
+
+
+    <script>
+      function displayImage(imageFile){
+        var largerImage = document.getElementById("mainImage");
+        var newNode = document.createElement("img");
+        newNode.id = "mainImage";
+        newNode.src = imageFile;
+        newNode.alt = "Large Image";
+        newNode.className = "mainImage";
+        newNode.style.width = "300px";
+        newNode.style.height = "200px";
+        largerImage.parentNode.replaceChild(newNode, largerImage);
+      }
+    </script>
+
+    <br />
+    <div>
+      <a href="#"
+      onmouseover="displayImage('images/desert_flowers1.jpeg');"
+      onmouseout="displayImage('images/desert_flowers2.jpeg');"
+      >
+        <img border="1" name="flowers" src="images/desert_flowers2.jpeg" width="150" height = "100">
+      </a>
+    </div>
+    <br />
+    <div class="text-container"
+    onmouseover="this.style.color='#9AA2C1';"
+    onmouseout="this.style.color='black';">
+    Hover over the images to change
+      <br />
+    </div>
+
+
+    <div>
+      <a href="#"
+      onmouseover="displayImage('images/boyce2.jpeg');"
+      onmouseout="displayImage('images/boyce.jpg');">
+        <img border="1" name="Boyce" src="images/boyce.jpg" width="150" height="100">
+      </a>
+    </div>
+    <br />
+    <div class="text-container"
+    onmouseover="this.style.color='#9AA2C1';"
+    onmouseout="this.style.color='black';">
+      <br />
+      Right-click and select View Source for more details
+    </div>
+
+    <button onclick="window.location.reload();">Refresh Page</button>
+
+  </body>
+</html>

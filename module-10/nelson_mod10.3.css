@@ -1,0 +1,40 @@
+/*Rachel Nelson
+Assignment 10.3 CSS
+04/28/23*/
+
+body{
+  background-color: rgba(219, 218, 238, 0.8);
+  font-size: 16px;
+}
+header {
+background-color: #9494b8;
+padding: 20px;
+text-align: center;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1{
+  font-weight: 400;
+  background-color: #9AA2C1;
+  color: black;
+  border: 2px solid #000000;
+  padding: 10px;
+  text-align: center;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+}
+
+img{
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.text-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
