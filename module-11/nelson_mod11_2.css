@@ -9,14 +9,27 @@ body{
 header {
   background: rgb(34,193,195);
   background: linear-gradient(0deg, rgba(34,193,195,0.4051995798319328) 0%, rgba(253,187,45,0.18671218487394958) 100%);
-  padding: 20px;
+  padding: 50px;
+  font-size: 36px;
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin-bottom: 75px;
 }
 
+header a {
+color: black;
+text-decoration: none;
+float: left;
+font-style: italic;
+padding-right: 10px;
+}
+header a:hover {
+text-decoration: underline;
+}
+
+
 label {
-  font-size: 14px;
+  font-size: 20px;
   margin-top: 10px;
   font-family: Copperplate, fantasy;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
@@ -25,7 +38,7 @@ label {
 button{
   padding: 5px;
   background-color: #9494b8;
-  font-size: 12px;
+  font-size: 20px;
   /* font-family: Copperplate, fantasy; */
   color: black;
   background: rgb(34,193,195);
