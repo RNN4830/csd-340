@@ -1,0 +1,66 @@
+<!--Rachel Nelson
+Module 11 html
+05/07/2023-->
+
+<html lang = "en">
+  <head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel = "stylesheet" href = "nelson_mod11_2.css">
+  </head>
+  <body>
+    <header>
+      <h1>Assignment 11.2: JavaScript - Part 3</h1>
+    </header>
+
+    <label>List item:</label>
+        <input type="text" id="list">
+
+        <button onclick="addToArray()">Add</button>
+        <button onclick="deleteLast()">Delete</button>
+        <button onclick="displayArray()">Display</button>
+
+    <h2>My List:</h2>
+        <script>
+          //create empty array
+           myArray = [];
+
+           // add to array
+           function addToArray() {
+             const inputValue = document.getElementById("list").value;
+             if (inputValue) {
+                myArray.push(inputValue);
+                alert(inputValue + " added to the list.");
+             }
+           }
+
+           // Delete last item
+           function deleteLast() {
+             if (myArray.length > 0) {
+               myArray.pop();
+             }
+           }
+
+           // Display
+           function displayArray() {
+             // const output = document.createElement("p");
+             // document.body.appendChild(output);
+
+             const previousList = document.querySelector("#myList");
+             if (previousList) {
+               document.body.removeChild(previousList);
+             }
+
+             const list = document.createElement("ol");
+             list.setAttribute("id", "myList");
+
+             for (let i = 0; i < myArray.length; i++) {
+               const item = document.createElement("li");
+               item.innerHTML = myArray[i];
+               list.appendChild(item);
+             }
+
+             document.body.appendChild(list);
+           }
+         </script>
+       </body>
+     </html>

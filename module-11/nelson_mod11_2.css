@@ -1,0 +1,56 @@
+/*Rachel Nelson
+Assignment 11.2 CSS
+05/07/23*/
+
+body{
+  background-color: #e9f5f5;
+}
+
+header {
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,0.4051995798319328) 0%, rgba(253,187,45,0.18671218487394958) 100%);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 75px;
+}
+
+label {
+  font-size: 14px;
+  margin-top: 10px;
+  font-family: Copperplate, fantasy;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+button{
+  padding: 5px;
+  background-color: #9494b8;
+  font-size: 12px;
+  font-family: Copperplate, fantasy;
+  color: black;
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,0.4051995798319328) 0%, rgba(253,187,45,0.18671218487394958) 100%);
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+  font-weight: 400;
+  font-family: Copperplate, fantasy;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  background-color: #e9f5f5;
+  color: black;
+  border: 2px solid #000000;
+  padding: 10px;
+  text-align: center;
+}
+
+h2{
+  font-family: Copperplate, fantasy;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
+}
