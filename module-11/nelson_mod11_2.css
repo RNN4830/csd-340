@@ -26,7 +26,7 @@ button{
   padding: 5px;
   background-color: #9494b8;
   font-size: 12px;
-  font-family: Copperplate, fantasy;
+  /* font-family: Copperplate, fantasy; */
   color: black;
   background: rgb(34,193,195);
   background: linear-gradient(0deg, rgba(34,193,195,0.4051995798319328) 0%, rgba(253,187,45,0.18671218487394958) 100%);
@@ -40,7 +40,7 @@ button{
 
 h1{
   font-weight: 400;
-  font-family: Copperplate, fantasy;
+  /* font-family: Copperplate, fantasy; */
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   background-color: #e9f5f5;
   color: black;
@@ -50,7 +50,7 @@ h1{
 }
 
 h2{
-  font-family: Copperplate, fantasy;
+  /* font-family: Copperplate, fantasy; */
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   margin-top: 50px;
 }
