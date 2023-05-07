@@ -1,0 +1,65 @@
+<!--Rachel Nelson
+Assignment 12.2 HTML
+05/14/23-->
+
+
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <title>CSD 340 Web Development with HTML and CSS</title>
+      <link rel="stylesheet" href="nelson_mod12_2.css">
+    </head>
+    <body>
+      <header>
+        <h1>Assignment 12.2: JavaScript - Part 4</h1>
+        <a href="../index.html" class="index">Home</a>
+      </header>
+      <div class="left-div">
+        <h3>Top 10 Favorite Books</h3>
+        <ol>
+          <li>The Girl on the Train</li>
+          <li>Gone Girl</li>
+          <li>Divergent</li>
+          <li>The Fault in Our Stars</li>
+          <li>The Hunger Games</li>
+          <li>The Girl with the Dragon Tattoo</li>
+          <li>Ready Player One</li>
+          <li>The Glass Castle</li>
+          <li>Station Eleven</li>
+          <li>The Da Vinci Code</li>
+        </ol>
+        <div>
+          <button onclick="sortBooksAsc()">Top to Bottom</button>
+          <button onclick="sortBooksDesc()">Bottom to Top</button>
+        </div>
+      </div>
+      <script>
+        const bookList = Array.from(document.querySelectorAll('.left-div li')).map(li => li.textContent);
+
+        function sortBooksAsc() {
+          bookList.sort();
+          displayBooks();
+        }
+
+        function sortBooksDesc() {
+          bookList.sort((a, b) => b.localeCompare(a));
+          displayBooks();
+        }
+
+        function displayBooks() {
+          const bookListElement = document.querySelector('.left-div ol');
+          bookListElement.innerHTML = bookList.map(book => `<li>${book}</li>`).join('');
+        }
+      </script>
+      <div class = "right-div">
+        <h3>5 Things I’ve Learned Since the Course Started</h3>
+        <ul>
+          <li>How to use Google Fonts</li>
+          <li>How to use classes and IDS in HTML</li>
+          <li>How to use HEX values to create color on a webpage</li>
+          <li>How to use CSS to style a webpage</li>
+          <li>How to use different HTML elements</li>
+        </ul>
+      </div>
+    </body>
+  </html>
